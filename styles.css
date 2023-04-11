@@ -23,7 +23,7 @@ h1 {
 .top-right {
   position: absolute;
   top: 15px;
-  left: 490px;
+  left: 520px;
   font-weight: bold;
   font-size: 45px;
   width: 290px;
@@ -31,6 +31,6 @@ h1 {
 }
 
 img {
-  width: 55%;
+  width: 60%;
   height: 100vh;
 }
