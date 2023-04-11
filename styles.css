@@ -2,6 +2,22 @@ body {
   font-family: "sofia-pro", sans-serif;
 }
 
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 65px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
 img {
   width: 50%;
   height: 100vh;
