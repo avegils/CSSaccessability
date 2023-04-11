@@ -9,7 +9,6 @@ body {
 }
 
 .container {
-  position: relative;
   color: white;
   margin: 0;
   padding: 0;
@@ -20,17 +19,7 @@ h1 {
   font-weight: bold;
 }
 
-.top-right {
-  position: absolute;
-  top: 15px;
-  left: 520px;
-  font-weight: bold;
-  font-size: 45px;
-  width: 290px;
-  height: 210px;
-}
-
 img {
-  width: 60%;
+  width: 50%;
   height: 100vh;
 }
