@@ -73,11 +73,11 @@
                     <label for = "username"></label>
                     <input type = "text" id ="username" name = "username" placeholder="User Name" pattern = "^[A-Za-z]+\s[A-Za-z]+$" required size="25">
                     <label for = "email"></label>
-                    <input type = "text" id ="email" name = "email" placeholder="Email" pattern = "^[A-Za-z]+\s[A-Za-z]+$" required size="25">
+                    <input type = "email" id ="email" name = "email" placeholder="Email" pattern = "^[A-Za-z]+\s[A-Za-z]+$" required size="25">
                     <label for = "password"></label>
-                    <input type = "text" id ="password" name = "password" placeholder="Password" pattern = "^[A-Za-z]+\s[A-Za-z]+$" required size="25">
+                    <input type = "password" id ="password" name = "password" placeholder="Password" pattern = "^[A-Za-z]+\s[A-Za-z]+$" required size="25">
                     <label for = "confirmPassword"></label>
-                    <input type = "text" id ="confirmPassword" name = "confirmPassword" placeholder="Confirm Password" pattern = "^[A-Za-z]+\s[A-Za-z]+$" required size="25">
+                    <input type = "password" id ="confirmPassword" name = "confirmPassword" placeholder="Confirm Password" pattern = "^[A-Za-z]+\s[A-Za-z]+$" required size="25">
                     <label for = "level"></label>
                     <div class = "smaller">
                         <select class = "form-select" aria-label = "Select your level">
@@ -88,13 +88,14 @@
                             <option value = "professional">Professional</option>
                         </select>
                         <label for = "dob"></label>
-                        <input type = "text" id ="dob" name = "dob" placeholder="MM-DD-YYYY" pattern = "^[A-Za-z]+\s[A-Za-z]+$" required size="25">
+                        <input type = "date" id ="dob" name = "dob" placeholder="MM-DD-YYYY" pattern = "^[A-Za-z]+\s[A-Za-z]+$" required size="25">
                     </div>
                 </form>
                 <div class = "smaller">
                     <button id = "back">Go Back</button>
                     <button type = "submit" id = "signUp">Sign Up</button>
                 </div>
+            </div>
         </div>
     </div>
 </body>
