@@ -89,3 +89,63 @@ button {
   color: white;
   border:none;
 }
+
+/* Nav */
+
+.center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  width: 50px;
+  height: 50px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.left > * {
+  margin: 10px;
+}
+
+.nav {
+  display: inline-flex;
+  font-weight: 700;
+}
+
+.nav li {
+  padding: 10px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav li:hover {
+  cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .nav {
+      display: none;
+  }
+  /* .navbar-toggler[aria-expanded="true"]  {
+      margin: 0 auto;
+  } */
+
+  .navbar-collapse {
+    background-color: white;
+  }
+
+  .center {
+    justify-content: center;
+  }
+}
