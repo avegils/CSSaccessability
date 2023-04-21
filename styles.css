@@ -131,6 +131,10 @@ button {
   cursor: pointer;
 }
 
+.carousel-item p{
+  color: #FFFFFF;
+}
+
 
 
 @media screen and (max-width: 800px) {
